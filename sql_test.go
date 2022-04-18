@@ -333,7 +333,7 @@ func TestAutoIncrement(t *testing.T) {
 }
 
 func TestPrepareStatement(t *testing.T) {
-	//notes prepare statement digunakan untuk query yang sama 
+	//notes prepare statement digunakan untuk query yang sama dengan value parameternya berbeda
 	db := GetConnection()
 
 	defer db.Close()
